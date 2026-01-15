@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reddy Seeds Company</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="title">🌱 Reddy Seeds Company</h1>
+  <button onclick="telugu()">తెలుగు</button>
+  <button onclick="english()">English</button>
+</header>
+
+<section class="products">
+  <h2>Seed Price List</h2>
+
+  <div class="product">
+    <h3>Tomato Seeds</h3>
+    <p>₹120</p>
+    <button onclick="add('Tomato Seeds',120)">Add</button>
+  </div>
+
+  <div class="product">
+    <h3>Chilli Seeds</h3>
+    <p>₹150</p>
+    <button onclick="add('Chilli Seeds',150)">Add</button>
+  </div>
+
+  <div class="product">
+    <h3>Brinjal Seeds</h3>
+    <p>₹100</p>
+    <button onclick="add('Brinjal Seeds',100)">Add</button>
+  </div>
+</section>
+
+<section class="cart">
+  <h2>🛒 Order Details</h2>
+
+  <ul id="items"></ul>
+  <h3>Total: ₹<span id="total">0</span></h3>
+
+  <form onsubmit="sendOrder(event)">
+    <input required id="name" placeholder="Customer Name">
+    <input required id="phone" placeholder="Mobile Number">
+    <textarea required id="address" placeholder="Delivery Address"></textarea>
+
+    <button type="submit">Click to Order</button>
+  </form>
+
+  <a id="upi" target="_blank" class="pay">Pay via UPI</a>
+
+  <p>OR Scan QR</p>
+  <img src="phonepe-qr.jpg">
+
+  <a class="whatsapp" 
+     href="https://wa.me/918328288295" target="_blank">
+     Order on WhatsApp
+  </a>
+</section>
+
+<footer>
+<p>📞 8328288295 | 📧 sangunarasimha0@gmail.com</p>
+<p>📍 Yerragonda Palem, Reddy Gari Bazar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
