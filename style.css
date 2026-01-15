@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+  background: #f4fff4;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: green;
+  color: white;
+  padding: 15px;
+}
+
+.products {
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+}
+
+.cart {
+  background: #e8ffe8;
+  padding: 20px;
+}
+
+input, textarea {
+  width: 90%;
+  margin: 5px;
+  padding: 8px;
+}
+
+.pay {
+  display: block;
+  background: purple;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.whatsapp {
+  display: block;
+  background: #25D366;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+}
